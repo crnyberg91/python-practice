@@ -38,3 +38,28 @@ print(abs(neg_num)) # absolute value
 print(pow(my_num, 6)) # power
 print(min(4, 6)) # gets the minimum number
 print(sqrt(36)) # can be used with the math import
+
+# user input practice
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
+
+# calculator
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2) # convert a string to float numbers
+print(result)
+
+# mad libs
+color = input("Enter a color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter a celebrity: ")
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
+
+# lists
+people = ["Kevin", "Karen", "Jim"]
+print(people[0])
+print(people[-1]) # use negatives to access back of the list
+print(people[1:3]) # grabs up but to not include the last one, here, pos 3 wont be printed
